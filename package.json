@@ -1,6 +1,6 @@
 {
   "name": "generator-wean",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Yeoman generator for NW.js, Express, Angular and Node",
   "license": "MIT",
   "main": "app/index.js",
