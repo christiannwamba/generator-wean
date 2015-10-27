@@ -4,5 +4,6 @@ angular.module('app', [])
         $scope.person = {};
         $scope.add = function() {
             $scope.people.push($scope.person);
+            $scope.person = {};
         };
     });
