@@ -56,7 +56,7 @@ eg:
 
 
 ## How about Icons
-Yeah. Icons. Icons are very easy to setup for mac and windows. Copy the `.icns` and `.ico` version of your icon named `app-icon` to the root of the project before building and that is all.
+Yeah. Icons. Icons are very easy to setup for mac and windows. Replace `app-icon.icns` and `app-icon.ico` in the root of the project with your own version before building and that is all. Deleting them will break the build process.
 
 ## Contributing
 I will really appreciate any contributions to this project (no matter how little). Please use the [guidelines](https://github.com/christiannwamba/generator-wean/blob/master/CONTRIBUTING.md)

@@ -91,6 +91,14 @@ module.exports = yeoman.generators.Base.extend({
                     description: this.props.description
                 }
             );
+			this.fs.copy(
+				this.templatePath('_app-icon.icns'),
+				this.destinationPath('app-icon.icns')
+			);
+			this.fs.copy(
+				this.templatePath('_app-icon.ico'),
+				this.destinationPath('app-icon.ico')
+			);
         },
 
         //Copy the application files

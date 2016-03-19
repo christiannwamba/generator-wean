@@ -93,11 +93,11 @@ project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/slush-wean
+   git clone https://github.com/<your-username>/generator-wean
    # Navigate to the newly cloned directory
-   cd slush-wean
+   cd generator-wean
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/arvindr21/slush-wean
+   git remote add upstream https://github.com/christiannwamba/generator-wean
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
